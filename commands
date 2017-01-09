@@ -1,0 +1,9 @@
+# connect to sqllibrary(RODBC)
+　
+dbhandle <- odbcDriverConnect("driver=SQL Server;server=AUHDC1-ISQSQL04\\SQL1;database = Database, ")
+　
+　
+data<- sqlQuery(dbhandle, " select ...
+　
+　
+")
